@@ -1,0 +1,8 @@
+s = input()
+for i in range(len(s)):
+    if s[i].isupper():
+        print(s[i].lower(), end="")
+    elif s[i].islower():
+        print(s[i].upper(),end="")
+    else:
+        print(s[i], end="")
